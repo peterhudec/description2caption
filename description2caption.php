@@ -38,7 +38,7 @@ function d2c_defaults(){
  * The "Caption" input field in the media item form is filled with
  * post excerpt in the get_attachment_fields_to_edit() function
  * 
- * This action copyes the attachment's post_content to its post_excerpt
+ * This action copies the attachment's post_content to its post_excerpt
  * after the attachment post is inserted to the DB after file upload
  */
 function d2c($post_ID){
