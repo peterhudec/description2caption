@@ -121,8 +121,15 @@ class Description_2_Caption_Plugin {
 			<?php submit_button(); ?>
 		</form>
 		<p>
-			Created by <strong>Peter Hudec</strong>, <a href="http://peterhudec.com" target="_blank">peterhudec.com</a>.
+			Created by <a href="http://peterhudec.com" target="_blank">peterhudec.com</a>.<br />
+			This plugin is and allways will be free but if you still want to pay for it you can. Just click the button below <strong>:-)</strong><br />
 		</p>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="GB4S3N2XJMRCN">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
 	</div>
 	<?php }
 	
