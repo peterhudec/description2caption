@@ -38,6 +38,9 @@ Copy the **description2caption** folder into the plugins directory and activate.
 
 == Changelog ==
 
+= 1.1 =
+* Code reorganized into a single class
+
 = 1.0 =
 * Innitial version
 
